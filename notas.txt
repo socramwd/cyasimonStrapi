@@ -1,0 +1,38 @@
+STRAPI
+    Es un CMS Headless, similar a wordpress pero sin plantillas ni bloques. Sólo contenido
+    Te permite crear API's dinámicas con respuesta JSON o GraphQL
+    Puedes personalizarlo con JavaScript o TypeScript
+    Puede usar plugins
+
+    Requerimientos:
+        Node 16+
+        Base de Datos:
+            SQLite 3
+            PostgreSQL +10
+            MySQL 5.7.8+
+            MariaDB 10.2.7+
+    Crear Proyecto:
+        npx create-strapi-app@latest
+            Elegimos:
+                El nombre del proyecto
+                Custom (para poder elegir nuestra base de datos)
+                JavaScript
+                postgres
+                    En www.render.com crear base de datos
+                    Copiar External Database URL
+                        Ejemplo en el mio: postgres://root:3tJzxpooZbrrmZiq5C8bPjoQqh5feZtB@dpg-cd42oppgp3jtevq1fbj0-a.frankfurt-postgres.render.com/guitarla_scog
+                Database Name:
+                    guitarla_scog
+                Host:
+                    dpg-cd42oppgp3jtevq1fbj0-a.frankfurt-postgres.render.com
+                Port:
+                    Enter
+                Username:
+                    root
+                Password:
+                    3tJzxpooZbrrmZiq5C8bPjoQqh5feZtB
+                Enable SSL:
+                    Y
+        
+        Entrar a la carpeta
+        npm run develop
